@@ -1,10 +1,9 @@
-package com.investor.domain.persistance.jpa;
+package com.investor.app.domain.persistance.jpa;
 
-import com.investor.domain.persistance.UserRepository;
-import com.investor.domain.users.User;
+import com.investor.app.domain.persistance.UserRepository;
+import com.investor.app.domain.users.User;
 
 import javax.persistence.EntityManager;
-import javax.persistence.NamedQuery;
 import javax.persistence.PersistenceContext;
 
 public class JpaUserRepository implements UserRepository {

@@ -1,6 +1,4 @@
-package com.investor.domain.deposits;
-
-import com.investor.domain.users.User;
+package com.investor.app.domain.deposits;
 
 import javax.persistence.*;
 import java.time.LocalDate;

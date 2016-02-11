@@ -1,6 +1,6 @@
-package com.investor.domain.persistance;
+package com.investor.app.domain.persistance;
 
-import com.investor.domain.deposits.Deposit;
+import com.investor.app.domain.deposits.Deposit;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;

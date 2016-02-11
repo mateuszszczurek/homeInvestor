@@ -1,10 +1,9 @@
-package com.investor.domain.persistance.jpa;
+package com.investor.app.domain.persistance.jpa;
 
-import com.investor.domain.deposits.Deposit;
-import com.investor.domain.persistance.DepositRepository;
+import com.investor.app.domain.deposits.Deposit;
+import com.investor.app.domain.persistance.DepositRepository;
 import org.springframework.stereotype.Repository;
 
-import javax.persistence.Entity;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;

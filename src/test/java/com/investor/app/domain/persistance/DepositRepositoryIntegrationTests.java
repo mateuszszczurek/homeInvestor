@@ -1,7 +1,7 @@
-package com.investor.domain.persistance;
+package com.investor.app.domain.persistance;
 
-import com.investor.Application;
-import com.investor.domain.deposits.Deposit;
+import com.investor.app.Application;
+import com.investor.app.domain.deposits.Deposit;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

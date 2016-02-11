@@ -1,13 +1,10 @@
-package com.investor.domain.users;
+package com.investor.app.domain.users;
 
-import com.investor.domain.deposits.Deposit;
+import com.investor.app.domain.deposits.Deposit;
 
 import javax.persistence.*;
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-
-import static java.util.Collections.emptyList;
+import java.util.List;
 
 @Entity
 @NamedQueries(
@@ -28,9 +25,9 @@ public class User {
 
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinColumn(name = "deposit_id")
-    private Collection<Deposit> deposits = new ArrayList<>();
+    private List<Deposit> deposits = new ArrayList<>();
 
-    public User(String name, String lastName, Collection<Deposit> deposits) {
+    public User(String name, String lastName, List<Deposit> deposits) {
         this.name = name;
         this.lastName = lastName;
         this.deposits = deposits;
@@ -45,7 +42,7 @@ public class User {
         return id;
     }
 
-    public Collection<Deposit> getDeposits() {
+    public List<Deposit> getDeposits() {
         return deposits;
     }
 

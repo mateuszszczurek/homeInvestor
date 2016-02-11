@@ -1,4 +1,4 @@
-package com.investor.domain.deposits;
+package com.investor.app.domain.deposits;
 
 import java.math.BigDecimal;
 
